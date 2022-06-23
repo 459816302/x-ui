@@ -486,7 +486,7 @@ ssl_cert_issue() {
 show_usage() {
     echo "x-ui 管理脚本使用方法: "
     echo "------------------------------------------"
-    echo "x-ui              - 显示管理菜单 (功能更多)"
+    echo "x-ui              - 显示管理菜单 (功能更多9527)"
     echo "x-ui start        - 启动 x-ui 面板"
     echo "x-ui stop         - 停止 x-ui 面板"
     echo "x-ui restart      - 重启 x-ui 面板"
@@ -524,7 +524,7 @@ show_menu() {
   ${green}13.${plain} 设置 x-ui 开机自启
   ${green}14.${plain} 取消 x-ui 开机自启
 ————————————————
-  ${green}15.${plain} 一键安装 bbr (最新内核)
+  ${green}15.${plain} 一键安装 bbr (最新内核9527)
   ${green}16.${plain} 一键申请SSL证书(acme申请)
  "
     show_status
